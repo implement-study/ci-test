@@ -4,12 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-
-class TestDemoTest {
+public class TestDemo2Test {
 
     @Test
-    void testDemo() {
-        assertEquals(3, new TestDemo().foo());
+    void bar() {
+        assertEquals("bar", new TestDemo2().bar());
     }
-
 }

@@ -9,7 +9,14 @@ class TestDemoTest {
 
     @Test
     void testDemo() {
+        System.out.println(new TestDemo().foo());
         assertEquals(1, new TestDemo().foo());
+    }
+
+    @Test
+    void testAdd(){
+         System.out.println(new TestDemo().foo());
+          assertEquals(11, new TestDemo().foo());
     }
 
 }

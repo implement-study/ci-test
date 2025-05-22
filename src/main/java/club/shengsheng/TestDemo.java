@@ -6,7 +6,7 @@ package club.shengsheng;
 public class TestDemo {
 
     public int foo() {
-        // environment: jdk17
+        //  113
         return 2;
     }
 }
